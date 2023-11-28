@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-family: Outfit;
+    background-color: var(--Verydarkblue_main);
+}
+:root{
+ --Softblue: hsl(215, 51%, 70%);
+ --Cyan: hsl(178, 100%, 50%);
+ --Verydarkblue_main: hsl(217, 54%, 11%);
+--Verydarkblue_card: hsl(216, 50%, 16%);
+--Verydarkblue_line: hsl(215, 32%, 27%);
+
+
+}
+
+hr{
+    background-color: var(--Verydarkblue_line);
+}
+
+.mainContainer{
+    display:flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 40%;
+    background-color: var(--Verydarkblue_card);
+    padding: 20px;
+    border-radius: 5px;
+}
+.mainContainer img{
+    border-radius: 5px;
+}
+
+.title{
+    margin-top: 10px;
+    color: white;
+}
+
+.content-text{
+    margin-top: 10px;
+    color:var(--Softblue);
+    font-weight: 100;
+}
+
+.value{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--Softblue);
+}
+.value img{
+    margin-right: 10px;
+}
+
+.title{
+    font-weight:600 ;
+    font-size: 1.2rem;
+}
+.value > span:first-child{
+    color: var(--Cyan);
+}
+
+
+.profile{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    color: var(--Softblue);
+}
+.avatar{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;    
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.creator-name{
+    margin-left: 0.5ch;
+    color: white;
+}
+
+.title:hover, .creator-name:hover{
+    color: var(--Cyan);
+}
